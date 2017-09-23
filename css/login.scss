@@ -1,0 +1,148 @@
+@function cal($num){
+	@return $num/20;
+}
+$lef:left;
+$rig:right;
+a{
+	text-decoration:none
+}
+#top{
+	height:cal(36rem);
+	width:cal(320rem);
+	background:#fafafa;
+	span{
+		float:left;
+		color:#6d6d6d;
+		font-family:'iconfont';
+		line-height:cal(36rem);
+		margin-left:cal(16rem);
+		font-size:cal(13rem);
+	}
+	p{
+		float:left;
+		color:#5e5e5e;
+		font-size:cal(13rem);
+		line-height:cal(36rem);
+		margin-left:cal(122rem);
+	}
+	b{
+		float:right;
+		font-weight:normal;
+		font-size:cal(11rem);
+		line-height:cal(36rem);
+		margin-right:cal(5rem);
+		color:#5e5e5e;
+	}
+}
+hr{
+	width:cal(318rem);
+	margin-top:cal(-10rem);
+}
+#middle{
+	.box{
+		float:left;
+		p{
+			font-size:cal(11rem);
+			color:#666666;
+			text-align:center;
+			margin-top:cal(30rem);
+		}
+		input{
+			float:left;
+			border-top:none;
+			outline:none;
+			border-left:none;
+			border-right:none;
+			font-size:cal(20rem);
+			color:#ededee;
+			margin-left:cal(30rem);
+			margin-top:cal(10rem);
+			padding:cal(10rem);
+			text-align:center;
+		}
+	}
+	.pane{
+		clear:both;
+		float:left;
+		width:cal(294rem);
+		background:#ff1877;
+		margin-top:cal(20rem);
+		margin-left:cal(13rem);
+		margin-bottom:cal(17rem);
+		p{
+			font-size:cal(13rem);
+			color:#fff;
+			text-align:center;
+			line-height:cal(42rem);
+		}
+	}
+	h1{
+		clear:both;
+		float:left;
+		font-weight:normal;
+		font-size:cal(11rem);
+		margin-left:cal(13rem);
+	}
+	h2 a{
+		float:right;
+		font-weight:normal;
+		font-size:cal(11rem);
+		margin-right:cal(13rem);
+		color:#ff5777;
+	}
+}
+#bottom{
+	h6{
+		clear:both;
+		float:left;
+		font-size:cal(9rem);
+		position:relative;
+		top:cal(38rem);
+		left:cal(142rem);
+		color:#f1f1f1;
+	}
+	h6:before{
+		height:1px;
+		width:cal(114rem);
+		background:#f1f1f1;
+		position:absolute;
+		content:'';
+		left:cal(25rem);
+		top:cal(7rem);
+	}
+	h6:after{
+		height:1px;
+		width:cal(114rem);
+		background:#f1f1f1;
+		position:absolute;
+		content:'';
+		left:cal(-120rem);
+		top:cal(7rem);
+	}
+	.box{
+		clear:both;
+		float:left;
+		height:cal(90rem);
+		width:cal(90rem);
+		background:#0598e2;
+		border-radius:50%;
+		margin-left:cal(115rem);
+		margin-top:cal(84rem);
+		span{
+			clear:both;
+			float:left;
+			font-family:'iconfont';
+			font-weight:bold;
+			color:#fff;
+			margin-top:cal(25rem);
+			margin-left:cal(30rem);
+			font-size:cal(26rem);
+		}
+		p{
+			clear:both;
+			font-size:cal(8rem);
+			color:#fff;
+			margin-left:cal(25rem);
+		}
+	}
+}
