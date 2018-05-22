@@ -5,7 +5,7 @@
 	var s = document.getElementById('s');
 	function time(){
 	var nowDate = new Date();
-	var futDate = new Date('2017/11/01')
+	var futDate = new Date('2018/06/15')
 	var nms = nowDate.getTime()
 	var fms = futDate.getTime()
 	var ms = fms-nms;
